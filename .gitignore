@@ -1,0 +1,16 @@
+# .NET build output
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+
+# Local SQLite database and sidecar files
+src/InventoryHub.Api/inventoryhub.db
+src/InventoryHub.Api/inventoryhub.db-shm
+src/InventoryHub.Api/inventoryhub.db-wal
+
+# Local / generated output
+artifacts/
+.DS_Store
+Thumbs.db

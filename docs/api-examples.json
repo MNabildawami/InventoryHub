@@ -1,0 +1,32 @@
+{
+  "createProductRequest": {
+    "name": "USB-C Docking Station",
+    "sku": "ACC-1010",
+    "category": "Accessories",
+    "price": 119.95,
+    "stockQuantity": 12,
+    "supplier": "Northstar Supply"
+  },
+  "productResponse": {
+    "productId": 16,
+    "name": "USB-C Docking Station",
+    "sku": "ACC-1010",
+    "category": "Accessories",
+    "price": 119.95,
+    "stockQuantity": 12,
+    "supplier": "Northstar Supply",
+    "updatedAtUtc": "2026-10-13T00:00:00Z"
+  },
+  "pagedProductsResponse": {
+    "items": [],
+    "page": 1,
+    "pageSize": 8,
+    "totalItems": 0,
+    "totalPages": 1
+  },
+  "errorResponse": {
+    "code": "validation_error",
+    "message": "Price must be greater than zero.",
+    "traceId": null
+  }
+}
